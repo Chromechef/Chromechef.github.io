@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
+        
+    </head>
+    <title>About Jimmy</title>
+
+    <body onload='document.form.input.focus()'>
+        
+        <img src="/aboutMeImages/meBlackAndWhite.jpeg" alt="Photo of Jimmy, Background image by Max Saeling">
+        <h1>About Jimmy</h1>
+        <h2>What is a Jimmy?</h2>
+        <p>A Jimmy is a wild animal from the culinary industry. He spent most of his early years...</p>
+        <ul class="ul-el">
+            <li>Attending Culinary Institute of America</li>
+            <li>Learning how to cook</li>
+            <li>Eating fantastic cuisines</li>
+            <li>Traveling the world</li>
+            <li>Getting yelled at by chefs</li>
+            <li>Cooking with more precision to not get yelled at by chefs</li>
+        </ul>
+        <h2>His last years in the industry.</h2>
+        <ul class="ul-el">
+            <li>He became a chef</li>
+            <li>He became a mentor</li>
+            <li>Found the love of his life</li>
+            <li>He became a father</li>
+        </ul>
+       
+        <div class="mail">
+            <h2>Enter a valid email to join Newsletter</h2>
+        <form name="form" action="#"> 
+            <ul>
+                <li class="email-el"><input type='text' name='input' placeholder="Valid Emali Here"/></li>
+                <li class="submit">
+                   <button class="email-el" type="submit" name="submit"  onclick="ValidateEmail(document.form.input)">Click To Join Newsletter</button> 
+                </li>
+            </ul>
+        </form>
+       
+        <script src="script.js"></script>
+    </body>
+</html>
